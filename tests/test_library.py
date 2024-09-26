@@ -16,4 +16,13 @@ def test_add_book():
     library.add_book(book)
     assert len(library.books) == 1
 
+# Test for borrowing books
+def test_borrow_book():
+    library = Library()
+    book = Book("12345", "Test Book", "Author", 2020)
+    library.add_book(book)
+    borrowed_book = library.borrow_book("12345")
+    assert borrowed_book.is_borrowed == True
+
+
 
