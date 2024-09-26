@@ -10,6 +10,7 @@ This project implements a simple library management system that allows users to 
 - **View Available Books**: View a list of all available books in the library.
 
 ## Usage
-1. **Clone the repository**:
+### Cloning the Repository
+1. Clone the repository to your local machine using the following command:
    ```bash
-   git clone <repository_url>
+   git clone git@github.com:bshubham01/LibraryManagementSystem.git
